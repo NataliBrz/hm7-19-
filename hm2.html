@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Задание 2</h2>
+
+
+    <fieldset>
+        <legend><b></b><span style="color:red;">Имя</span></legend>
+        <div>
+            <label for="namepet"><b><span style="color:green;">Кличка питомца</span></b></label>
+            <input type="text" id="namepet" />
+        </div>
+        <div>
+            <label for="Name"><b><span style="color:green;">Имя владельца</span></b></label>
+            <input type="text" id="Name" />
+        </div>
+        <div>
+            <label for="contact"><b><span style="color:green;">Контакты владельца</span></b></label>
+            <input type="text" id="contact" />
+        </div>
+    </fieldset>
+    <div>
+        <p>Выберите породу:</p>
+        <select id="breed">
+            <option value="British">Британская</option>
+            <option value="Mein Kun">Мейн кун</option>
+            <option value="Cornish Rex">Корниш Рекс</option>
+            <option value="Sfinks">Сфинкс</option>
+            <option value="Siberian">Сибирская</option>
+        </select>
+
+    </div>
+    <p></p>
+    <div class="type">
+        <p>Чем питается</p><br />
+        <input type="checkbox" id="eatPet1" name="eat" value="dry food" />Сухой корм<br />
+        <input type="checkbox" id="eatPet2" name="eat" value="wet food" />Влажный корм<br />
+        <input type="checkbox" id="eatPet3" name="eat" value="people food" />Еда с общего стола<br />
+        <input type="checkbox" id="eatPet4" name="eat" value="special food" />Специализированное меню
+    </div>
+    <p></p>
+    <div>
+        <p>Укажите пол питомца</p>
+        Самка<input id="girl" type="radio" name="sex" /><br /> Самец<input id="boy" type="radio" name="sex" />
+    </div>
+    <div>
+        <p>Комментарий:</p>
+        <textarea id="comment" rows="10">Введите текст...</textarea>
+    </div>
+
+    <div><button id="button"><span style="color: blue;">Сохранить</span></button></div>
+
+
+
+
+    <script src="hm2.js"></script>
+</body>
+
+</html>
